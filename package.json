@@ -1,0 +1,35 @@
+{
+  "name": "samn-backend",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "@types/bluebird": "^3.5.20",
+    "@types/connect": "^3.4.31",
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.4.7",
+    "@types/socket.io": "^1.4.32",
+    "bluebird": "^3.1.1",
+    "include-all": "^1.0.0",
+    "lodash": "3.10.1",
+    "rc": "1.0.1",
+    "sails": "~0.12.14",
+    "sails-disk": "~0.10.9",
+    "sails-mongo": "^0.12.2",
+    "sails-sqlserver": "^0.10.8",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jdmr/samn-backend.git"
+  },
+  "author": "jdmr",
+  "license": ""
+}
